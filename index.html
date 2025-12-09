@@ -8,69 +8,84 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f0f0f;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
             color: white;
         }
 
         header {
-            background: #1a1a1a;
-            padding: 20px;
+            background: linear-gradient(90deg, #ff6600, #ff3300);
+            padding: 30px;
             text-align: center;
-            border-bottom: 2px solid #ff6600;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
 
         header img {
-            width: 250px;
+            width: 180px;
+            filter: drop-shadow(0 0 6px rgba(0,0,0,0.6));
         }
 
         h1 {
             margin-top: 10px;
-            font-size: 32px;
-            color: #ff8800;
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.5);
         }
 
         .container {
-            max-width: 900px;
+            max-width: 950px;
             margin: 40px auto;
             padding: 20px;
         }
 
         .card {
-            background: #1c1c1c;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 12px;
+            background: #111;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 16px;
             border: 1px solid #333;
+            transition: 0.3s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #ff6600;
+            box-shadow: 0 6px 18px rgba(255,102,0,0.2);
         }
 
         .card h2 {
-            color: #ff7700;
+            color: #ff6600;
+            font-size: 26px;
         }
 
         .download-btn {
             display: inline-block;
-            padding: 12px 20px;
-            background: #ff6600;
-            color: white;
+            padding: 14px 22px;
+            background: linear-gradient(90deg, #ff6600, #ff3300);
+            color: #fff;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 10px;
-            margin-top: 10px;
+            border-radius: 12px;
+            margin-top: 14px;
             transition: 0.2s;
+            font-size: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
         }
 
         .download-btn:hover {
-            background: #ff8800;
+            transform: scale(1.05);
+            box-shadow: 0 6px 14px rgba(255,102,0,0.3);
         }
 
         footer {
             text-align: center;
-            padding: 20px;
-            background: #111;
-            margin-top: 40px;
+            padding: 25px;
+            background: #0d0d0d;
             color: #777;
-            border-top: 1px solid #333;
+            border-top: 1px solid #222;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -87,14 +102,14 @@
         <h2>Último Tema Publicado</h2>
         <p>Tema exclusivo criado para MIUI/HyperOS.</p>
 
-        <!-- DOWNLOAD DIRETO DO ARQUIVO MTZ -->
+        <!-- DOWNLOAD DIRETO -->
         <a class="download-btn" 
            href="https://raw.githubusercontent.com/dwplay77/dwplay77mtzfiles/main/downloads/PlayCJ2222.mtz" 
            download>
            ⬇ Baixar Tema MTZ
         </a>
 
-        <!-- BOTÃO PARA ABRIR NA LOJA GLOBAL DE TEMAS -->
+        <!-- LOJA TEMAS -->
         <a class="download-btn"
            href="theme://zhuti.xiaomi.com/detail/72bda2d4-3591-4c6e-a261-74193734a5fb">
            📱 Abrir na Loja de Temas Xiaomi
@@ -103,7 +118,7 @@
 
     <div class="card">
         <h2>Mais Temas em Breve</h2>
-        <p>Você poderá adicionar quantos temas quiser aqui.</p>
+        <p>Continue acompanhando! Novos temas exclusivos serão adicionados.</p>
     </div>
 
 </div>
