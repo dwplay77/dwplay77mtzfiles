@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre – DwPlay77 MTZ Files</title>
+    <style>
+        body {
+            background: #0f0f0f;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff8800;
+        }
+        a {
+            color: #ff8800;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sobre o Projeto</h1>
+
+<p>
+O site <strong>DwPlay77 MTZ Files</strong> foi criado para disponibilizar temas personalizados
+para MIUI e HyperOS de forma rápida, segura e direta.
+</p>
+
+<p>
+Todos os temas são criados por <strong>DwPlay77</strong>, com foco em qualidade,
+originalidade e compatibilidade.
+</p>
+
+<h2>Contato</h2>
+<p>
+E-mail direto de suporte e dúvidas:  
+<a href="mailto:dwplay77xavier@gmail.com">dwplay77xavier@gmail.com</a>
+</p>
+
+</body>
+</html>
